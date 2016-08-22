@@ -1,5 +1,5 @@
 - name: Install parted
-  apt_package:
+  apt:
     name: parted
     state: present
   when: disk_additional_disks
